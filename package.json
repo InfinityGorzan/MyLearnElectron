@@ -1,0 +1,19 @@
+{
+  "name": "mylearnelectron",
+  "version": "1.0.0",
+  "description": "My project to test Electron features",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "mylearnelectronjs"
+  },
+  "author": "InfinityGorzan",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^24.0.0"
+  }
+}

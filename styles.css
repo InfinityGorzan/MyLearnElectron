@@ -1,0 +1,23 @@
+:root {
+    color-scheme: light dark;
+    font-family: Arial, Helvetica, sans-serif;
+}
+  
+@media (prefers-color-scheme: dark) {
+    body { background: #333; color: white; }
+    button:not(.active) { background-color: #8d8d8d15; }
+    button:not(.active):hover { background-color: #e2dbdb75; }
+}
+  
+@media (prefers-color-scheme: light) {
+    body { background: #ddd; color: black; }
+    button:not(.active) { background-color: #ebebebdc; }
+    button:not(.active):hover { background-color: #8b8b8be0; }
+    button span.buttonText:hover {color: white}
+}
+
+button {
+    padding: 14px;
+    font-size: 14px;
+    border: none;
+}
