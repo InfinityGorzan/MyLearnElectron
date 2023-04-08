@@ -5,8 +5,6 @@
   
 @media (prefers-color-scheme: dark) {
     body { background: #333; color: white; }
-    button:not(.active) { background-color: #8d8d8d15; }
-    button:not(.active):hover { background-color: #e2dbdb75; }
 }
   
 @media (prefers-color-scheme: light) {
