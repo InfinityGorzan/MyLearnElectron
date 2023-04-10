@@ -2,21 +2,21 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Theme Changer</title>
+    <title id="titleElement"></title>
     <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
     <link rel="stylesheet" type="text/css" href="./styles.css">
 </head>
 <body>
   <div id="titlebar">
-    <p id="title" style="font-size: 15px;">My App</p>
+    <p id="title" style="font-size: 15px;"></p>
     <hr style="opacity: 0;">
   </div>
     <h1>Hello!</h1>
-    <p>Current theme: <strong id="theme-source">System</strong></p>
 
     <button id="toggle-mode">Toggle</button>
     <button id="reset-to-system">Reset</button>
 
+    <script src="scripts.js"></script>
     <script src="renderer.js"></script>
 </body>
 </html>
