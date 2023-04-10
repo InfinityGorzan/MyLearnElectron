@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,11 +8,16 @@
     <link rel="stylesheet" type="text/css" href="./styles.css">
 </head>
 <body>
+  <div id="titlebar">
+    <!--<button onclick="">Hi</button>-->
+    <p id="title" style="font-size: 15px;">My App</p>
+    <hr style="opacity: 0;">
+  </div>
     <h1>Hello!</h1>
     <p>Current theme: <strong id="theme-source">System</strong></p>
 
-    <button id="toggle-mode"><span class="buttonText">Toggle</span></button>
-    <button id="reset-to-system"><span class="buttonText">Reset</span></button>
+    <button id="toggle-mode">Toggle</button>
+    <button id="reset-to-system">Reset</button>
 
     <script src="renderer.js"></script>
   </body>

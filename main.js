@@ -7,7 +7,13 @@ function createWindow () {
     height: 600,
     webPreferences: {
       preload: path.join(__dirname, 'preload.js')
-    }
+    },
+    titleBarStyle: 'hidden',
+    titleBarOverlay: {
+      color: '#333',
+      symbolColor: '#ddd',
+      height: 30
+    },
   })
 
   win.loadFile('index.html')
